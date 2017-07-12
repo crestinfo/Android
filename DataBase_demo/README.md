@@ -1,9 +1,9 @@
-<h2>Simple example of SQliteDatabse</h2>
+<h2>Simple example of SQliteDatabase in Android.</h2>
 <p>Using this code you can easily understand how you can work with SQlite In Android</4>
 
 <h2>Execution</h2>
 
-<h4>No Need Of Extra Libaries</h4> 
+<h4>No Need Of Extra Libraries</h4> 
 <p>SQLite supports all the relational database features. In order to access this database, you don't need to establish any kind of connections for it like JDBC,ODBC e.t.c<p>
          
 <h4>How Does It Works</h4>
