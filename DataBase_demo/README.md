@@ -11,8 +11,10 @@
 
 <h4>Output:</h4> 
 <p><code>in rooted phone, it's in : /data/data/<your_app_package_name>/databases/<database_name></code></p>
-<p><code>in pc[Emulator] , it's in : data/data/your.project.packageName/databases</code></p>
+<p><code>in pc[Emulator], it's in : data/data/your.project.packageName/databases</code></p>
 <p><code>you should have Andoid ABD tool where you can get the Databse in above location</code></p>
+
+<h4>Screenshots:</h4>
 
 <img src="/DataBase_demo/Screenshots/screen1.png" width="200" height="400" />       <img src="/DataBase_demo/Screenshots/screen2.png" width="200" height="400" />            <img src="/DataBase_demo/Screenshots/screen2_2.png" width="200" height="400" />
 
