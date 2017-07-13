@@ -14,7 +14,9 @@
 <p><code>in pc[Emulator] , it's in : data/data/your.project.packageName/databases</code></p>
 <p><code>you should have Andoid ABD tool where you can get the Databse in above location</code></p>
 
-![Alt text](/DataBase_demo/wallet.png?raw=true "Optional Title")
+![Main Screen](/DataBase_demo/Screenshots/screen1.png?raw=true "")
+![View Screen](/DataBase_demo/Screenshots/screen1.png?raw=true "")
+![Edit Screen](/DataBase_demo/Screenshots/screen1.png?raw=true "")
 
 <p>If you need more help <a href="http://www.crestinfotech.com/contact-us/" target="_blank">contact us</a> 
 or email us on <a href="mailto:raxit4u2@gmail.com">raxit4u2@gmail.com</a></p>
