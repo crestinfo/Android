@@ -18,11 +18,34 @@
          
 <h4>Step 2 : Since we are working with network operations we need to add INTERNET permissions in AndroidManifest.xml file</h4>
 
-<p><code>"<uses-permission android:name="android.permission.INTERNET"/>"</code></p>
+
+
+
+<pre>
+    <div class="container">
+        <div class="block two first">
+			<p><code>"<uses-permission android:name="android.permission.INTERNET"/>"</code></p>
+            </div>
+        </div>
+    </div>
+</pre>
+
+
 
 <p>And As well we are getting the image from the internal/external storage of our device you need to add the following Permission.</p>
 
-<p><code>"<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>"</code></p>
+
+
+
+<pre>
+    <div class="container">
+        <div class="block two first">
+			<p><code>"<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>"</code></p>
+            </div>
+        </div>
+    </div>
+</pre>
+
 
 
 <h4>Step 3 :  Define the Endpoints In ApiInterface</h4>
@@ -34,6 +57,7 @@
 <p><code>@Query – specifies the query key name with the value of the annotated parameter.</code></p>
 <p><code>@Body – payload for the POST call</code></p>
 <p><code>@Header – specifies the header with the value of the annotated parameter</code></p>
+
 
 
 <h4>Output:</h4> 
