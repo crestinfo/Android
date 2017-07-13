@@ -3,7 +3,7 @@
 
 <h2>Execution</h2>
 
-<h4>No Need Of Extra Libraries</h4> 
+<h4>No Need For Switching From application to Messenger app.</h4> 
 <p>Nowadays, Applications usually use SMS texts for authentication purpose, like OTP , where a message is sent by the service-provider and it is automatically read by the application, and can verify it. This flow helps user to save a lot of app switching from application to messenger app and then entering the authentication text to app again.<p>
          
 <h4>How Does It Works</h4>
