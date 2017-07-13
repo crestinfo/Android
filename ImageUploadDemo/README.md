@@ -3,7 +3,7 @@
 
 <h2>Demonstration</h2>
 
-<h4>Very Quick Response ather Volley.</h4> 
+<h4>Very Quick Response Rather Volley.</h4> 
 <p>Retrofit is denitely the better alternative to volley in terms of ease of use, performance, extensibility and other things. It is a type-­safe REST client for Android built by Square. Using this tool android developer can make all network stuff much more easier.<p>
          
 
