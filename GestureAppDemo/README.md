@@ -24,7 +24,7 @@
 <p><code>Now select the image you want and move it on any position to screen(in short drag and drop anywhare).</code></p>
  
 
-<h4>Step 3 :  Delete Image</h4>
+<h4>Step 3 :  Delete Image.</h4>
 <p>Double tap on image and you will haev an propt to Delete the image or else you can drag it to Trash icon at bottom right corner.</p>
 <p>And you image will be deleted.</p>
 
