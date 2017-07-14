@@ -38,9 +38,9 @@
 <p><code>compile('com.twitter.sdk.android:twitter:2.3.2@aar') {
         transitive = true;
     }</code>
-
-    <p><code>For twitter you have to register the app in twitter developer, you will get the  "TWITTER_KEY" "TWITTER_SECRET", user this in you code.</code></p>
 </p>
+<p><code>For twitter you have to register the app in twitter developer, you will get the  "TWITTER_KEY" "TWITTER_SECRET", user this in you code.</code></p>
+
 
 <h4>Linkedin</h4>
 <p><code>for linked in you need to download the sdk from "https://developer.linkedin.com/docs/android-sdk-auth".</code></p>
