@@ -39,16 +39,18 @@
         transitive = true;
     }</code>
 
-    <code>For twitter you have to register the app in twitter developer, you will get the  "TWITTER_KEY" "TWITTER_SECRET", user this in you code.</code>
+    <p><code>For twitter you have to register the app in twitter developer, you will get the  "TWITTER_KEY" "TWITTER_SECRET", user this in you code.</code></p>
 </p>
 
 <h4>Linkedin</h4>
-<p><code>for linked in you need to download the sdk from <a href="https://developer.linkedin.com/docs/android-sdk-auth".</code></p>
+<p><code>for linked in you need to download the sdk from "https://developer.linkedin.com/docs/android-sdk-auth".</code></p>
 <p><code>compile project(':linkedin-sdk')</code></p> 
 <p><code>you will found the sdk integrated with your by selecting the project section of your application.</code></p> 
             
-<h4>How Does It Works</h4>
+<h3>How Does It Works</h3>
 <p>Here is an example demonstrating the use of Social Media Integration. There ae three controls that make you login to  facebook,linkedin and twitter.</p>
+
+
 
 
 <p>If you need more help <a href="http://www.crestinfotech.com/contact-us/" target="_blank">contact us</a> 
