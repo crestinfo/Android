@@ -12,7 +12,7 @@
 <h4>Step 1 : You need to add the Ads Activity to your Manifest file.</h4> 
 <p><code>activity android:name="com.google.android.gms.ads.AdActivity"
 android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-android:theme="@android:style/Theme.Translucent"/></code></p>
+android:theme="@android:style/Theme.Translucent"</code></p>
 
 
 <h4>Step 2 : Also the meta tag is rtequired for to integrate the google play services.</h4> 
