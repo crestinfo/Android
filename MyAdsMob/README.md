@@ -14,12 +14,11 @@
 <pre>
     <div class="container">
         <div class="block two first">
-            <h2>Your title</h2>
             <div class="wrap">
-            <activity android:name="com.google.android.gms.ads.AdActivity"
+            <p><activity android:name="com.google.android.gms.ads.AdActivity"
 			android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
 			android:theme="@android:style/Theme.Translucent"/></code>
-             </div>
+            </activity></p></div>
         </div>
     </div>
 </pre>
