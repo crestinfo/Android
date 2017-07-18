@@ -15,10 +15,10 @@
     <div class="container">
         <div class="block two first">
             <div class="wrap">
-            <p><activity android:name="com.google.android.gms.ads.AdActivity"
+            <p>activity android:name="com.google.android.gms.ads.AdActivity"
 			android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
 			android:theme="@android:style/Theme.Translucent"/></code>
-            </activity></p></div>
+            </p></div>
         </div>
     </div>
 </pre>
