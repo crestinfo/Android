@@ -21,7 +21,9 @@
 <h4>Step 3 :  Method to Add the log</h4>
 <p><code> resolver.insert(CallLog.Calls.CONTENT_URI, values);</code></p>
 
+<h4>Screenshots:</h4>
 
+<img src="/RCLApp/src.png" width="200" height="400" />       <img src="/RCLApp/src2.png" width="200" height="400" /> 
 
 <h4>Output:</h4> 
 <p><code>ADD : You will get the new Number added to your call log.</code></p>
