@@ -7,6 +7,13 @@
 <h4>How Does It Works</h4>
 <p>It it very simple for execution as you will found a face icon on side of the keyboard, by clicking the icon you will be switched to emoji and by clciking the keyboard icon again you will be back to qwert keyboard.</p>
 
+
+<h4>Gradle.build</h4>
+<p>To use the keyboard you need to add following to your build.gradle(App level).</p>
+<p><code>compile 'hani.momanii.supernova_emoji_library:supernova-emoji-library:0.0.2'</code></p>
+
+
+
 <h4>Screenshot:</h4> 
 
 <img src="/EmojiKeyBoardApp/src.png" width="200" height="400" />               <img src="/EmojiKeyBoardApp/src1.png" width="200" height="400" />
