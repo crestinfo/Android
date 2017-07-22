@@ -9,7 +9,7 @@
 
 <h4>Screenshot:</h4> 
 
-<img src="/EmojiKeyBoardApp/src.jpg" width="200" height="400" />               <img src="/EmojiKeyBoardApp/src1.jpg" width="200" height="400" />
+<img src="/EmojiKeyBoardApp/src.png" width="200" height="400" />               <img src="/EmojiKeyBoardApp/src1.png" width="200" height="400" />
 
 <p>If you need more help <a href="http://www.crestinfotech.com/contact-us/" target="_blank">contact us</a> 
 or email us on <a href="mailto:raxit4u2@gmail.com">raxit4u2@gmail.com</a></p>
