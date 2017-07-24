@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.crest.customtoast.MainActivity">
+
+    <Button
+        android:id="@+id/btnShowToastLR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Show Toast (Right To Left)" />
+
+    <Button
+        android:id="@+id/btnShowToastUD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnShowToastLR"
+        android:layout_centerInParent="true"
+        android:text="Show Toast (Up Down)" />
+
+    <TextView
+        android:id="@+id/txtMessageToast"
+        android:layout_width="wrap_content"
+        android:layout_height="?actionBarSize"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/custom_toast_bg"
+        android:gravity="center"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:textColor="@android:color/black"
+        android:textSize="15dp"
+        android:visibility="gone" />
+</RelativeLayout>
