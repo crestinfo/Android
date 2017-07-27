@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_allAPPS"
+            android:title="Get All Demo" />
+        <item
+            android:id="@+id/nav_map"
+            android:title="Google Map" />
+        <item
+            android:id="@+id/nav_apicall"
+            android:title="Api Call" />
+        <item
+            android:id="@+id/nav_notify"
+            android:title="Get Notification" />
+        <item
+            android:id="@+id/nav_camera"
+            android:title="Camera" />
+        <item
+            android:id="@+id/nav_askanything"
+            android:title="AsnMeAnything App" />
+        <item
+            android:id="@+id/nav_palygame"
+            android:title="Play Game" />
+    </group>
+</menu>
