@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HeadphoneButtonDemo</string>
+    <string name="title">Demonstration for Headphone button Action Event.</string>
+</resources>
