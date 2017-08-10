@@ -17,4 +17,7 @@
 <p><code>compile 'com.google.android.gms:play-services-places:10.2.1'</code></p>
 <p><code>compile 'com.squareup.okhttp3:okhttp:3.6.0'</code></p>
 <p><code>compile 'com.google.code.gson:gson:2.6.1'</code></p>
-<p><code>volley library to mak the API call</code></p>
+<p><code>volley library to make the API call</code></p>
+
+
+<p>Happy Coding...</p>
