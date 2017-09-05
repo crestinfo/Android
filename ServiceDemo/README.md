@@ -3,7 +3,9 @@
 
 <h4>The demo code helps you how to run service in android and how to stop it when App goes in background or when app will be closed !</h4>
 
-<h3>You need to stop the service in onPuase() method of base activity if you want the service to stop when app goes background and onResume() method when app again come forground</h3>
+<h6>You need to stop the service in onPuase() method of base activity if you want the service to stop when app goes background and onResume() method when app again come forground</h6>
+
+
 
 
 <h3>Code To Start Service</h3>
@@ -12,9 +14,14 @@
 <p><code>intentService = new Intent(this, ForegroundService.class)</code></p>
 <p><code>startService(intentService)</code></p>
 
+
+
 <h3>Code To Stop Service</h3>
 
 <p><code>stopService(intentService)</code></p>
+
+
+
 
 
 
