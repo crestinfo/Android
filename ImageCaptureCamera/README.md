@@ -13,11 +13,19 @@
 
 <p>Don't forgot to give permissions </p>
 
-<code>"<uses-permission android:name="android.permission.CAMERA"/>"</code>
+```html
+<uses-permission android:name="android.permission.CAMERA"/>
+```
 
-<code>"<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>"</code>
+```html
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+```
 
-<code>"<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>"</code>
+```html
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+```
+
+
 
 <h2>Conclusion</h2>
 
