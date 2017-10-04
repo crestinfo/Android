@@ -8,13 +8,16 @@
 <p>Some times the bitmap will not fit into your heap size to resolve the issue write these two properties in Manifest.xml file</p>
 
 <code>android:hardwareAccelerated="false"</code>
+
 <code>android:largeHeap="true"</code>
 
 <p>Don't forgot to give permissions </p>
 
-<code> <uses-permission android:name="android.permission.CAMERA"/> </code>
-<code> <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/> </code>
-<code> <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/> </code>
+<code><uses-permission android:name="android.permission.CAMERA"/></code>
+
+<code><uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/></code>
+
+<code><uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/></code>
 
 <h2>Conclusion</h2>
 
