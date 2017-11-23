@@ -12,49 +12,81 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    Button reqPermission;
+public class MainActivity extends AppCompatActivity implements LocationListener {
+    String TAG = "MainActivity";
+    private Button btnGetLocation;
+    private TextView txtMyLocation;
+    LocationManager locationManager;
+    RelativeLayout coordinatorLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        initView();
-        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.READ_CONTACTS) != PackageManager.PERMISSION_GRANTED) {
-            if (ActivityCompat.shouldShowRequestPermissionRationale(this, Manifest.permission.READ_CONTACTS)) {
-                Toast.makeText(this, "Permission Granted", Toast.LENGTH_SHORT).show();
-            } else {
-                ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.READ_CONTACTS}, 100);
+
+        coordinatorLayout = (RelativeLayout) findViewById(R.id.coordinatorLayout);
+        btnGetLocation = (Button) findViewById(R.id.btnGetLocation);
+        txtMyLocation = (TextView) findViewById(R.id.txtMyLocation);
+
+        btnGetLocation.setOnClickListener(new View.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.M)
+            @Override
+            public void onClick(View v) {
+                if (ContextCompat.checkSelfPermission(MainActivity.this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED &&
+                        ContextCompat.checkSelfPermission(MainActivity.this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+                    if (shouldShowRequestPermissionRationale(Manifest.permission.ACCESS_FINE_LOCATION)) {
+                        Snackbar snackbar = Snackbar.make(coordinatorLayout, "You need to allow permission to get location!", Snackbar.LENGTH_SHORT)
+                                .setAction("Allow", new View.OnClickListener() {
+                                    @Override
+                                    public void onClick(View v) {
+                                        requestPermissions(new String[]{Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.ACCESS_COARSE_LOCATION}, 100);
+                                    }
+                                });
+                        snackbar.show();
+                    } else
+                        requestPermissions(new String[]{Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.ACCESS_COARSE_LOCATION}, 100);
+                }
+
             }
+        });
+    }
+
+    void getLocation() {
+        try {
+            locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
+            locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 5000, 5, this);
+        } catch (SecurityException e) {
+            e.printStackTrace();
         }
     }
 
-    private void initView() {
-        reqPermission = (Button) findViewById(R.id.reqPermission);
-        reqPermission.setOnClickListener(this);
-    }
-
-    @Override
-    public void onClick(View v) {
-        switch (v.getId()) {
-            case R.id.reqPermission:
-                Toast.makeText(this, "Button Clicked!", Toast.LENGTH_SHORT).show();
-                break;
-        }
-    }
 
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
         if (requestCode == 100) {
             if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                Toast.makeText(this, "We Have Permission From Result.", Toast.LENGTH_SHORT).show();
-                //Do your stuff here after permission granted
-            } else {
-                ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.READ_CONTACTS}, 100);
+                getLocation();
             }
         } else {
-            Toast.makeText(this, "Unable to get Permission", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Unable to get Permission", Toast.LENGTH_LONG).show();
         }
+    }
+
+    @Override
+    public void onLocationChanged(Location location) {
+        txtMyLocation.setText("Latitude : " + location.getLatitude() + "\n Longitude : " + location.getLongitude());
+    }
+
+    @Override
+    public void onStatusChanged(String provider, int status, Bundle extras) {
+    }
+
+    @Override
+    public void onProviderEnabled(String provider) {
+    }
+
+    @Override
+    public void onProviderDisabled(String provider) {
     }
 }
