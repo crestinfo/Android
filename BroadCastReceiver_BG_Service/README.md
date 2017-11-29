@@ -6,4 +6,4 @@
 
 
 you need to register the receiver in Manifest File.
-<code> <receiver android:name=".AlarmReceiver" /> </code>
+<code> " receiver android:name='.AlarmReceiver' " </code>
