@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/myback_gradient"
+    tools:context="com.example.server.googlemapdemo.AskMeAnythingActivity">
+
+    <TextView
+        android:id="@+id/txtHeading"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:gravity="center"
+        android:text="Ask Anything"
+        android:textColor="@color/colorWhite"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/edtQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_below="@id/txtHeading"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/shape_edittext_answer"
+        android:hint="Ask Yes/No Question !"
+        android:paddingLeft="15dp" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtQuestion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/gradient_btnsubmit"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite" />
+
+    <TextView
+        android:id="@+id/txtShape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSubmit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/ic_hexagon"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite" />
+
+    <TextView
+        android:id="@+id/txtAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtShape"
+        android:layout_alignBottom="@+id/txtShape"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="70dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginStart="90dp"
+        android:gravity="center"
+        android:textColor="@color/colorWhite" />
+</RelativeLayout>

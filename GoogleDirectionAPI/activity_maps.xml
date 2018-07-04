@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.crest.googledirectionapi.MapsActivity" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/lay_map_saved_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/txtStartAddr"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="#4000"
+            android:textColor="@color/colorMap"
+            android:textColorHint="@color/colorMap"
+            android:gravity="center_vertical"
+            android:hint="Start Address"
+            android:paddingLeft="10dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+        <TextView
+            android:id="@+id/txtEndAddr"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="#4000"
+            android:textColor="@color/colorMap"
+            android:textColorHint="@color/colorMap"
+            android:gravity="center_vertical"
+            android:hint="End Address"
+            android:paddingLeft="10dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorMap"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/distance_value"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="0.5"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/duration_value"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="0.5"
+            android:gravity="center" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">GoogleMapDemo</string>
+    <string name="title_activity_maps">MyAllApp</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="edittextnull_error">Write Something and the Click Submit !</string>
+    <string-array name="answers">
+        <item> </item>
+        <item>Yes,Yes,Yes !</item>
+        <item>Are You Joking ?</item>
+        <item>Definitely</item>
+        <item>Someone said be selfish for your own Growth.</item>
+        <item>Love Is On Your Side.</item>
+        <item>Are You Sure To Do It ?</item>
+        <item>This is dare for you? It Also can harm your Body.</item>
+        <item>No.</item>
+        <item>You Can not.</item>
+        <item>For that thing you need more money. Grab the chance and start doing it.</item>
+        <item>Get your self admit in hospital.</item>
+        <item>Think twice and then work on it.</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

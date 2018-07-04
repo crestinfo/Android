@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.crest.hector.multiscreensupport.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/layoutOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorOne"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:padding="@dimen/padding"
+            android:src="@drawable/chat" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.6"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="This demo is for giving the user multi screen support environment support "
+            android:textSize="@dimen/text_size_title" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:padding="@dimen/padding"
+            android:src="@drawable/chat" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorTwo"
+        android:layout_below="@+id/layoutOne">
+
+        <TextView
+            android:id="@+id/txtSecond"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding"
+            android:textSize="@dimen/text_size_title"
+            android:text="You need to work hard to get the success easy its not the time to look after anything instead your carrier and life goal." />
+
+        <ImageView
+            android:id="@+id/imgChat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="@dimen/padding"
+            android:layout_below="@+id/txtSecond"
+            android:src="@drawable/chat" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtSecond"
+            android:layout_toLeftOf="@+id/imgChat"
+            android:src="@drawable/chat"
+            android:padding="@dimen/padding"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">KnowUrLuck</string>
+    <string name="title">Today you are going to test your luck ! \n\nWhat you need to do is to answer some questions below.</string>
+    <string name="result">Based on your answers we generated your luck percentage.</string>
+    <array name="Questions">
+        <item>Who You Are?</item>
+        <item>Why you are here?</item>
+        <item>Do you love animals?</item>
+        <item>Are you board?</item>
+        <item>Do you really need Money?</item>
+        <item>How much money you need?</item>
+        <item>How much free time you need?</item>
+        <item>Are you satisfied?</item>
+        <item>Do you like the app?</item>
+        <item>Are you crazy you are testing your luck?</item>
+    </array>
+</resources>

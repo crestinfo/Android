@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.crest.fragmenttransactiondemo.Fragments.TabsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/txtTabsTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/txtColor"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/txtTabsTitle"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

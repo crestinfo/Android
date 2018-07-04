@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">IntoSliderDemo</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">First Screen!</string>
+    <string name="slide_1_desc">The very first screen!</string>
+
+    <string name="slide_2_title">Second Screen</string>
+    <string name="slide_2_desc">next screen by clicking Next!</string>
+
+    <string name="slide_3_title">Third Screen</string>
+    <string name="slide_3_desc">next screen by clicking Next!</string>
+
+    <string name="slide_4_title">Fourth Screen</string>
+    <string name="slide_4_desc">Final Screen now will navigated to welcome Screen!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+</resources>

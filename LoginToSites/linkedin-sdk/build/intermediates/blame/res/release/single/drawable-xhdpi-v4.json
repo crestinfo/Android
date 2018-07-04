@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/brittany/Documents/HardikData/LoginToSites/linkedin-sdk/build/intermediates/res/merged/release/drawable-xhdpi-v4/ic_launcher.png",
+        "source": "/home/brittany/Documents/HardikData/LoginToSites/linkedin-sdk/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/server/HardikData/LoginToSites/linkedin-sdk/build/intermediates/res/merged/release/drawable-xhdpi-v4/ic_launcher.png",
+        "source": "/home/server/HardikData/LoginToSites/linkedin-sdk/src/main/res/drawable-xhdpi/ic_launcher.png"
+    }
+]

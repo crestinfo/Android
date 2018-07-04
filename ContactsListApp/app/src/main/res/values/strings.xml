@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">ContactsListApp</string>
+    <string-array name="contacts">
+        <item>Abcde</item>
+        <item>Abcde</item>
+        <item>Bcdef</item>
+        <item>Bcdef</item>
+        <item>Cdefg</item>
+        <item>Cdefg</item>
+        <item>Defgh</item>
+        <item>Defgdh</item>
+        <item>Defgdsgh</item>
+        <item>Efghi</item>
+        <item>Fghij</item>
+        <item>Fghijhsdgj</item>
+        <item>Fgfsdfhij</item>
+        <item>Fghij</item>
+        <item>Ghijkl</item>
+        <item>GgG</item>
+        <item>Gdhhd</item>
+        <item>Hector</item>
+        <item>Hector1</item>
+        <item>Ijklnm</item>
+        <item>Ijklnmlmf</item>
+        <item>Jkmlmf</item>
+        <item>Jiklnmlmf</item>
+        <item>Klmno</item>
+        <item>Klmno</item>
+        <item>Klmno</item>
+        <item>Klmno</item>
+        <item>Klmno</item>
+        <item>Lmndo</item>
+        <item>Lsdlmno</item>
+        <item>Mnco</item>
+        <item>Mdsdnco</item>
+        <item>Opdsdco</item>
+        <item>Opdsdco</item>
+        <item>Stdduvw</item>
+        <item>Std</item>
+        <item>Stduvw</item>
+        <item>Stdw</item>
+        <item>Xysd</item>
+        <item>Xyd</item>
+        <item>Xysdsd</item>
+        <item>Xysdsdf</item>
+        <item>Xysdfsdfd</item>
+    </string-array>
+</resources>
